@@ -3,7 +3,7 @@
         "cache_dependancies": true
     },
     "deploy": {
-        "module": "dashboard.wsgi:application",
+        "module": "dashboard.dashboard.wsgi:application",
         "managetasks": [
             "collectstatic --noinput"
         ]
